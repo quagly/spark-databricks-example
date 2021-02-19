@@ -1,0 +1,22 @@
+.idea/
+.DS_Store
+*.swp
+
+## IntelliJ File-based project format:
+*.iws
+
+## IntelliJ Plugin-specific files:
+.idea_modules/
+
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+
+# Any kind of log file
+*.log
