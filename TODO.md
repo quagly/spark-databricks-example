@@ -3,3 +3,4 @@
 * logging
 * assembly.sbt for fat jar
 * sbt plugin for auto versioning
+* link notebooks to repo in /src/main/notebook
