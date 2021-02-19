@@ -8,7 +8,7 @@ import org.apache.spark.sql.functions._
 
 class DateDimension (startDate: String = "1970-01-01",
                      dateFormatMask : String = "yyyy-MM-dd",
-                     numYears : Int  = 100) extends Serializable,
+                     numYears : Int  = 100),
                      spark: SparkSession = SparkSession.builder().getOrCreate()) extends Serializable  {
   // notebook context already has a spark session.  is there a way to detect whether we are in databricks context
   // and only initialize spark when needed?
